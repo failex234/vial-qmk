@@ -101,6 +101,11 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
             for (uint8_t i = 0; i < ARRAY_SIZE(border_leds); i++) {
                 RGB_MATRIX_INDICATOR_SET_COLOR(border_leds[i], 255, 0, 0);
             }
+
+			for (uint8_t i = 0; i < ARRAY_SIZE(left_side_leds); i++) {
+				RGB_MATRIX_INDICATOR_SET_COLOR(left_side_leds[i], 255, 0, 0);
+				RGB_MATRIX_INDICATOR_SET_COLOR(right_side_leds[i], 255, 0, 0);
+			}
             break;
         default:
             break;

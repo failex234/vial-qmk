@@ -54,7 +54,7 @@
 #define LED_LINKS           96
 #define LED_RUNTER          98
 
-/*
+
 static uint8_t left_side_leds[8] = {
     LED_SIDE_LEFT_0,
     LED_SIDE_LEFT_1,
@@ -76,7 +76,6 @@ static uint8_t right_side_leds[8] = {
     LED_SIDE_RIGHT_6,
     LED_SIDE_RIGHT_7
 };
-*/
 
 static uint8_t border_leds[32] = {
     LED_ESC,
